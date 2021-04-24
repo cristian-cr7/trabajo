@@ -12,7 +12,7 @@ const vehiculo = {
 
     RecorridoPorGiro(){
       //Para saber cuanto recorre depende del tamaño de la llanta
-      //Para ello debemos encontrar el Perimetro de la llanta ya que es lo que va a recorrer cada vuelta => Usamos  2Pi multiplicado por r
+      //para ello debemos encontrar el Perimetro de la llanta ya que es lo que va a recorrer cada vuelta => Usamos  2Pi multiplicado por r
       console.log(`Lo que recorre con un giro de llanta es: ${this.RadioLlantas*(2*3.14)} m/s`);
 
     },
